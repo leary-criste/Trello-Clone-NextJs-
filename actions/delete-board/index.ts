@@ -58,4 +58,4 @@ const handler = async (data: InputType): Promise<ReturnType> => {
   redirect(`/organization/${orgId}`);
 };
 
-export const deleteBoard = createSafeAction(DeleteBoard, handler);
+export const deleteBoard = createSafeAction(DeleteBoard, handler);
