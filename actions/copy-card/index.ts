@@ -72,4 +72,4 @@ const handler = async (data: InputType): Promise<ReturnType> => {
   return { data: card };
 };
 
-export const copyCard = createSafeAction(CopyCard, handler);
+export const copyCard = createSafeAction(CopyCard, handler);
