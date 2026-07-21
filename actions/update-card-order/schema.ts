@@ -12,4 +12,4 @@ export const UpdateCardOrder = z.object({
     })
   ),
   boardId: z.string(),
-});
+});
