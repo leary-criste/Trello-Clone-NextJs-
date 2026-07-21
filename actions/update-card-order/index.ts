@@ -50,4 +50,4 @@ const handler = async (data: InputType): Promise<ReturnType> => {
   return { data: updatedCards };
 };
 
-export const updateCardOrder = createSafeAction(UpdateCardOrder, handler);
+export const updateCardOrder = createSafeAction(UpdateCardOrder, handler);
