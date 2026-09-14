@@ -11,4 +11,4 @@ export const UpdateList = z.object({
     }),
   id: z.string(),
   boardId: z.string(),
-});
+});

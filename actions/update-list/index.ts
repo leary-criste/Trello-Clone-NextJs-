@@ -54,4 +54,4 @@ const handler = async (data: InputType): Promise<ReturnType> => {
   return { data: list };
 };
 
-export const updateList = createSafeAction(UpdateList, handler);
+export const updateList = createSafeAction(UpdateList, handler);
