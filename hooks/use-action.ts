@@ -60,4 +60,4 @@ export const useAction = <TInput, TOutput>(
     data,
     isLoading,
   };
-};
+};
